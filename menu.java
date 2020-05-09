@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class menu {
     public String callMenu(){
         //I only have one method here right now, but I might want to add
-        //more menu methods in the future
+        //more menu methods in the future.
         Scanner sc = new Scanner(System.in);
         System.out.println("Menu:");
         System.out.println("Login");
