@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class login {
     Scanner sc = new Scanner(System.in);
     public void loginUser(ArrayList<String> usernames, ArrayList<String> passwords){
-        //right now, this class only has one method. I will not make it static, however, because
-        //I plan on adding more methods to this class.
+        //right now, this class only has one method. I might want to make more methods
+        //in the login class later, like an admin login system, though.
         System.out.println("Enter username");
         String username = sc.nextLine();
         System.out.println("Enter password");
